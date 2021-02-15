@@ -34,23 +34,13 @@ docker ps -a
 CONTAINER ID   IMAGE     COMMAND       CREATED              STATUS                     PORTS     NAMES
 dc07949c7315   centos    "/bin/bash"   About a minute ago   Exited (0) 2 seconds ago             sleepy_cannon
 ```
-To stop an active container:
-```bash
-docker stop dc07949c7315
-```
 
-To start an inactive container:
+To start, stop or restart an inactive container:
 ```bash
 docker start dc07949c7315
-```
-
-To restart an active container:
-```bash
-docker restart dc07949c7315
-```
-
-To restart an active container:
-```bash
+...
+docker stop dc07949c7315
+...
 docker restart dc07949c7315
 ```
 
