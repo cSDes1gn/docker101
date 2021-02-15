@@ -72,3 +72,8 @@ docker rmi 300e315adb2f
 
 ## Automation
 We can build and customize docker images using a `Dockerfile` which instructs docker how to build our containers.
+
+We can build the container by running docker build in the directory with the target Dockerfile:
+```bash
+docker build .
+```
